@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS2 MA3 Karolina Szymanska</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container-menu" id="container-menu"></div>
+        <h1>Login</h1>
+
+        <form class="container-form" id="contactForm">
+            <div class="container-message"></div>
+
+            <div>
+                <label>
+                  Username (min. 5 characters)
+                  <input name="username" id="username" />
+                </label>
+                <div class="form-error" id="usernameError">
+                  Your username must be minimum 5 characters
+                </div>
+              </div>
+      
+              <div>
+                <label>
+                  Password (min. 5 characters, 1 uppercase letter, 1 lowercase letter and 1 number)
+                  <input name="password" id="password" type="password" />
+                </label>
+                <div class="form-error" id="passwordError">
+                  Your password must be minimum 5 characters, 1 uppercase letter, 1 lowercase letter and 1 number
+                </div>
+              </div>
+      
+              <button>Submit</button>
+
+        </form>
+    </div>
+
+    <script src="js/login.js" type="module"></script>
+</body>
+</html>
